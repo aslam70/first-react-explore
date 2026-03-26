@@ -21,7 +21,6 @@ function App() {
       {
         singers.map(singer=><Singer key= {singer.id} name={singer}></Singer>)
       }
-
       <ToDo task="learn React" isDone={true} time={time}></ToDo>
       <ToDo task="Revised Js" isDone={false}></ToDo>
       <ToDo task="Take a Shower" isDone={false} ></ToDo>
